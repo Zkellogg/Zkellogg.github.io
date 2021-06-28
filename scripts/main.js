@@ -1,13 +1,4 @@
-let myImage = document.querySelector('img');
 
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/motorcycle1.jpg') {
-      myImage.setAttribute('src','images/motorcycle2.jpg');
-    } else {
-      myImage.setAttribute('src','images/motorcycle1.jpg');
-    }
-}
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
